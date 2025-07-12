@@ -28,4 +28,5 @@ urlpatterns = [
         name="swagger-ui",
     ),
     path("api/account/", include("account.urls")),
+    path("api/", include("chat_server.urls")),
 ]

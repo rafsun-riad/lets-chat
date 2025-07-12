@@ -1,0 +1,7 @@
+openapi: 3.0.3
+info:
+  title: Lets Chat API
+  version: 1.0.0
+  description: API documentation for the Lets Chat application
+paths: {}
+components: {}

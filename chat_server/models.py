@@ -26,6 +26,7 @@ class Category(models.Model):
 class Server(models.Model):
     """Model representing a server."""
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=100)
     owner = models.ForeignKey(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="server_owner"

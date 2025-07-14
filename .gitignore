@@ -10,6 +10,9 @@ wheels/
 static/
 staticfiles/
 
+# media files
+media/
+
 
 # Virtual environments
 .venv
